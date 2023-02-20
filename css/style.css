@@ -12,7 +12,6 @@ header {
 }
 
 .navbar > ul > li {
-  text-decoration: none;
   display: inline-block;
   padding-left: 20px;
 }
@@ -120,7 +119,7 @@ header {
 
 .second-section {
   background-image: linear-gradient(to right bottom, blue, red);
-  padding-bottom: 500px;
+  padding-bottom: 150px;
 }
 
 .container {
@@ -165,4 +164,25 @@ header {
 
 .card-text > h4 {
   color: #fff941;
+}
+
+.text-second-section {
+  padding-top: 200px;
+}
+
+.brad-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.brad-name {
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
+
+.brad-place {
+  font-size: 25px;
+  color: #98939f;
 }
