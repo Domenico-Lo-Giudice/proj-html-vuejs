@@ -1,0 +1,24 @@
+#root {
+  background-color: #06060f;
+}
+
+header {
+  height: 150px;
+}
+
+.navbar > i {
+  color: #98939f;
+  padding-left: 10px;
+}
+
+.navbar > ul > li {
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.navbar > span {
+  background-color: #fff941;
+  margin-left: 10px;
+  margin-right: 10px;
+}
