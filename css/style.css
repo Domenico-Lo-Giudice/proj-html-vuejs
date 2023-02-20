@@ -117,3 +117,52 @@ header {
   color: green;
   font-size: 30px;
 }
+
+.second-section {
+  background-image: linear-gradient(to right bottom, blue, red);
+  padding-bottom: 500px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.second-section-cards {
+  position: relative;
+}
+
+.first-card {
+  background-image: url(.././img/service6-2x.jpg);
+  position: relative;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-bottom-right-radius: 50px 50px;
+}
+
+.second-card {
+  background-image: url(".././img/box1-2x.jpg");
+  position: relative;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-bottom-right-radius: 50px 50px;
+}
+
+.third-card {
+  background-image: url(".././img/box3-2x.jpg");
+  position: relative;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-bottom-right-radius: 50px 50px;
+}
+
+.cards-main {
+  margin-top: -80px;
+}
+
+.card-text > h4 {
+  color: #fff941;
+}
