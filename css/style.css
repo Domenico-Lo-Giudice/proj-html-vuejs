@@ -22,3 +22,97 @@ header {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.first-section {
+  background-image: url(".././img/slider82x-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.first-section-main {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  position: relative;
+}
+
+.first-section-text > h1 {
+  padding: 10px;
+  color: #ff414b;
+}
+
+.first-section-text > h2 {
+  font-size: 70px;
+  padding: 10px;
+  color: white;
+}
+
+.first-section-text > p {
+  font-size: 20px;
+  color: #98939f;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.icon-first-section {
+  margin-left: 10px;
+}
+
+.btn-youtube {
+  background-color: #4154ff;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.btn-buy {
+  background-color: #06060f;
+  border: 2px solid #98939f;
+  border-radius: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 250px;
+  color: white;
+}
+
+.btn-play {
+  position: absolute;
+  top: 240px;
+  right: 150px;
+  height: 80px;
+  border-radius: 50%;
+  width: 80px;
+  color: #4154ff;
+}
+
+.btn-demos {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 12px;
+  border-radius: 10px;
+  color: #36495c;
+  border: none;
+}
+
+.btn-sale {
+  position: absolute;
+  top: 105px;
+  right: 20px;
+  padding: 9px;
+  border: none;
+  border-radius: 10px;
+  color: #33475b;
+}
+
+.btn-sale > i {
+  color: green;
+}
+
+.price {
+  color: green;
+  font-size: 30px;
+}
