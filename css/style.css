@@ -2,6 +2,7 @@
   background-color: #06060f;
 }
 
+/* HEADER */
 header {
   height: 150px;
 }
@@ -27,6 +28,7 @@ header {
   margin-right: 10px;
 }
 
+/* FIRST SECTION */
 .first-section {
   background-image: url(".././img/slider82x-scaled.jpg");
   background-size: cover;
@@ -122,6 +124,7 @@ header {
   font-size: 30px;
 }
 
+/* SECOND SECTION */
 .second-section {
   background-image: linear-gradient(to right bottom, blue, red);
   padding-bottom: 150px;
@@ -190,4 +193,91 @@ header {
 .brad-place {
   font-size: 25px;
   color: #98939f;
+}
+
+/* THIRD SECTION */
+.third-section-img {
+  background-image: url(".././img/service15-2x.jpg");
+  background-size: cover;
+  flex-basis: 80%;
+  margin-top: -100px;
+  height: 850px;
+  border-bottom-right-radius: 30px;
+}
+
+.btn-play-third-section {
+  background-color: white;
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  top: 388px;
+  left: 341px;
+  border-radius: 50%;
+  border: none;
+}
+
+.fa-play {
+  color: #4154ff;
+}
+
+.third-section-text > h4 {
+  text-decoration: none;
+  color: #4154ff;
+  font-size: 25px;
+}
+.third-section-text {
+  padding: 150px;
+}
+
+.third-section-text > h2 {
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+.logo-unnmaed-cont {
+  margin-top: 40px;
+}
+
+.logo-cont {
+  margin-left: 10px;
+}
+
+.yt-red-btn {
+  background-color: red;
+  color: white;
+  padding: 2px;
+  border: 1px solid grey;
+  font-size: 15px;
+}
+
+.yt-follower {
+  padding: 2px;
+  border: 1px solid grey;
+  color: grey;
+  font-size: 15px;
+}
+
+.theme-fusion {
+  color: grey;
+}
+
+.third-section-img {
+  position: relative;
+}
+
+.third-section-p > p {
+  color: grey;
+  font-size: 20px;
+}
+
+.btn-visit-yt {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+}
+
+.visit-yt {
+  margin-top: 30px;
 }
