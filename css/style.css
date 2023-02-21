@@ -281,3 +281,46 @@ header {
 .visit-yt {
   margin-top: 30px;
 }
+
+/* THIRD-SECTION-BOTTOM */
+.cards-cont {
+  gap: 40px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.cards {
+  width: 33vw;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius: 50px;
+}
+.third-section-card1 {
+  background-image: url(".././img/video2-2x.jpg");
+}
+
+.third-section-card2 {
+  background-image: url(".././img/video7-2x.jpg");
+}
+.third-section-card3 {
+  background-image: url(".././img/video9-2x.jpg");
+}
+
+.cards-card-text,
+.cards-card-text2,
+.cards-card-text3 {
+  position: absolute;
+  bottom: -10px;
+}
+
+.card-text > span {
+  color: #4154ff;
+  font-weight: bold;
+}
+
+.play-button-third-section {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+}
