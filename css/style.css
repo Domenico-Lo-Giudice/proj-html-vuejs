@@ -448,3 +448,22 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* SIXTH SECTION  */
+.sixth-section {
+  background-image: url(".././img/banner2-2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5rem;
+  height: 40rem;
+}
+
+.btn-buy-fifth-section {
+  background-color: #4154ff;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border: none;
+}
