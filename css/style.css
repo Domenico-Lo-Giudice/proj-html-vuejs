@@ -130,10 +130,10 @@ header {
   padding-bottom: 150px;
 }
 
-.container {
+/* .container {
   width: 70%;
   margin: 0 auto;
-}
+} */
 
 .second-section-cards {
   position: relative;
@@ -466,4 +466,22 @@ header {
   font-size: 20px;
   padding: 20px;
   border: none;
+}
+
+/* SEVENTH SECTION  */
+.seventh-section {
+  padding-bottom: 200px;
+}
+
+.card-main-7-section > p {
+  color: #98939f;
+  padding: 20px;
+}
+
+.icon-7-section {
+  color: #4154ff;
+}
+
+.header-card-seventh-section > img {
+  width: 60%;
 }
