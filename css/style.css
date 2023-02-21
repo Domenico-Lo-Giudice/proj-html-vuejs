@@ -485,3 +485,37 @@ header {
 .header-card-seventh-section > img {
   width: 60%;
 }
+
+/* EIGHTH SECTION  */
+.eighth-section {
+  background-image: url(".././img/banner14-2x.jpg");
+  background-size: cover;
+}
+
+.overlay-background {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(14, 14, 175, 0.6),
+    rgba(192, 20, 97, 0.4)
+  );
+  padding: 200px 200px;
+}
+
+.btn-8th-section {
+  background-color: white;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: none;
+}
+
+.text-8th-section > h2 {
+  padding: 10px 10px;
+  font-size: 55px;
+}
+
+.text-8th-section > h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: #fff941;
+}
