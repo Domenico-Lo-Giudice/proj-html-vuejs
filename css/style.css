@@ -519,3 +519,56 @@ header {
   padding-bottom: 20px;
   color: #fff941;
 }
+
+/* UPPER FOOTER */
+.footer-section {
+  background-color: #060607;
+}
+
+.card {
+  width: 33vw;
+  background-color: transparent;
+}
+
+.footer-main {
+  gap: 120px;
+  padding-top: 100px;
+}
+
+.card-body > p {
+  font-size: 20px;
+  color: #98939f;
+}
+
+.card > p {
+  font-size: 20px;
+  color: #98939f;
+}
+
+.card > span {
+  color: white;
+  font-size: 20px;
+}
+
+.card-footer > i {
+  color: #ff414b;
+}
+
+.card-body > ul > li {
+  color: white;
+  padding-top: 20px;
+  padding-right: 40px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+/* BOTTOM FOOTER */
+.bottom-footer {
+  border-top: 1px solid grey;
+  margin-top: 100px;
+}
+
+.bottom-footer > .container > span {
+  color: #98939f;
+  padding-top: 40px;
+}

@@ -63,7 +63,7 @@
           />
         </div>
 
-        <div class="navbar">
+        <div class="navbar align">
           <ul class="m-0">
             <li v-for="(element,index) in element">
               <a href="#">{{element.name}}</a>
@@ -651,5 +651,79 @@
       </div>
     </section>
     <!-- FINE EIGHTH SECTION -->
+
+    <!-- FOOTER -->
+
+    <!-- UPPER FOOTER -->
+    <footer class="footer-section py-5">
+      <div class="container">
+        <div class="footer-main d-flex">
+          <!-- CARD1 FOOTER -->
+          <div class="card text-center">
+            <div class="card-head">
+              <img src="./img/logo.png" />
+            </div>
+
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aliquam autem eveniet deleniti ipsum dolor quasi!
+              </p>
+            </div>
+
+            <div class="card-footer d-flex justify-content-center gap-3">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <!-- CARD1 FOOTER -->
+
+          <!-- CARD2 FOOTER -->
+          <div class="card text-center">
+            <h4 class="text-light">RECENT POSTS</h4>
+
+            <!-- FOOTER VUE -->
+            <div class="card-body">
+              <ul>
+                <li v-for="(element, index) in footer">
+                  <i class="fa-solid fa-chevron-right"></i>
+                  {{element.name}}
+                </li>
+              </ul>
+            </div>
+            <!-- FOOTER VUE -->
+          </div>
+          <!-- CARD2 FOOTER -->
+
+          <!-- CARD3 FOOTER -->
+          <div class="card text-center">
+            <h4 class="text-light">CONTACT INFORMATIONS</h4>
+            <p>4746 Tipple Road Michigan 48449</p>
+            <span>Mobile: 1.800.000.0000</span>
+            <span>Email: info@your-company.com</span>
+          </div>
+          <!-- CARD3 FOOTER -->
+        </div>
+      </div>
+      <!-- FINE UPPER FOOTER -->
+
+      <!-- BOTTOM FOOTER -->
+      <div class="bottom-footer">
+        <div
+          class="container bottom-footer-cont d-flex justify-content-center py-2"
+        >
+          <span
+            >Copyright 2021 - 2020 | Avada theme by
+            <span class="text-light">ThemeFusion</span> | All rights reserved |
+            Powered by <span class="text-light">WordPress</span>
+          </span>
+        </div>
+      </div>
+      <!-- FINE BOTTOM FOOTER -->
+    </footer>
+    <!-- FINE FOOTER -->
   </body>
 </html>
