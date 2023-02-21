@@ -376,3 +376,50 @@ header {
 }
 
 /* FOURTH SECTION BOTTOM */
+.fourth-section-bottom {
+  background-color: #060607;
+  padding-bottom: 80px;
+}
+
+.fourth-section-bottom > .container {
+  width: 100%;
+}
+
+.card-fourth-section {
+  width: 33vw;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 80px;
+  background-color: #060607;
+  border: 5px solid #4154ff;
+}
+
+.up-card-fourth-section > h3 {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.up-card-fourth-section > h4 {
+  color: #fff941;
+}
+
+.bottom-card-fourth-section {
+  padding: 70px;
+}
+
+.bottom-card-fourth-section > p {
+  color: #98939f;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fa-stopwatch,
+.fa-dumbbell,
+.fa-child-reaching {
+  font-size: 70px;
+  color: white;
+}
+
+.fa-dumbbell {
+  transform: rotate(-45deg);
+}
