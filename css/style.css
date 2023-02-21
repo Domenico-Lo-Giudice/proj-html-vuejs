@@ -28,6 +28,19 @@ header {
   margin-right: 10px;
 }
 
+.header-button {
+  background-color: #4154ff;
+  border-radius: 50px;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+/* HOVER */
+.header-button:hover {
+  background-color: #ff414b;
+}
+
 /* FIRST SECTION */
 .first-section {
   background-image: url(".././img/slider82x-scaled.jpg");
@@ -71,6 +84,7 @@ header {
   margin-top: 20px;
   padding: 20px;
   color: white;
+  border: none;
 }
 
 .btn-buy {
@@ -82,6 +96,12 @@ header {
   padding: 20px;
   width: 250px;
   color: white;
+}
+
+/* HOVER */
+.btn-buy:hover {
+  background-color: white;
+  color: #060607;
 }
 
 .btn-play {
@@ -276,6 +296,11 @@ header {
   padding: 15px;
   border-radius: 30px;
   border: none;
+}
+
+/* HOVER */
+.btn-visit-yt:hover {
+  background-color: #ff414b;
 }
 
 .visit-yt {
