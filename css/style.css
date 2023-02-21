@@ -195,7 +195,7 @@ header {
   color: #98939f;
 }
 
-/* THIRD SECTION */
+/* THIRD SECTION UPPER */
 .third-section-img {
   background-image: url(".././img/service15-2x.jpg");
   background-size: cover;
@@ -282,7 +282,7 @@ header {
   margin-top: 30px;
 }
 
-/* THIRD-SECTION-BOTTOM */
+/* THIRD SECTION BOTTOM */
 .cards-cont {
   gap: 40px;
   padding-bottom: 100px;
@@ -310,7 +310,7 @@ header {
 .cards-card-text2,
 .cards-card-text3 {
   position: absolute;
-  bottom: -10px;
+  bottom: 0px;
 }
 
 .card-text > span {
@@ -324,3 +324,55 @@ header {
   border-radius: 50%;
   border: none;
 }
+
+.third-section {
+  height: 50rem;
+}
+
+/* FOURTH SECTION UPPER */
+.fourth-section {
+  background-image: url(".././img/banner1-2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #06060f;
+}
+
+.fourth-section-main-upper {
+  padding-top: 130px;
+  padding-bottom: 200px;
+  width: 70%;
+}
+
+.fourth-section-main-upper > h3 {
+  color: #ff414b;
+  padding-bottom: 10px;
+}
+
+.fourth-section-main-upper > h2 {
+  font-size: 55px;
+  color: white;
+}
+
+.fourth-section-main-upper > p {
+  font-size: 20px;
+  color: #98939f;
+  padding-top: 40px;
+}
+
+.input-text-mail {
+  width: 55%;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+}
+.subscribe-button {
+  width: 35%;
+  color: white;
+  background-color: #4154ff;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* FOURTH SECTION BOTTOM */
