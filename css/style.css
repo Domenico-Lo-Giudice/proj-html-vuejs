@@ -195,6 +195,14 @@ header {
   margin-top: -80px;
 }
 
+/* HOVER */
+.first-card:hover,
+.second-card:hover,
+.third-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .card-text > h4 {
   color: #fff941;
 }
@@ -426,6 +434,11 @@ header {
   border: 5px solid #4154ff;
 }
 
+.card-fourth-section:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .up-card-fourth-section > h3 {
   color: white;
   padding-top: 20px;
@@ -478,6 +491,44 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+/* HOVER */
+.fifth-section-card1:hover {
+  background: linear-gradient(
+      to right bottom,
+      rgba(194, 151, 151, 0.4),
+      rgba(39, 28, 192, 0.4)
+    ),
+    url(".././img/blog4-2x-600x386.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.fifth-section-card2:hover {
+  background: linear-gradient(
+      to right bottom,
+      rgba(194, 151, 151, 0.4),
+      rgba(39, 28, 192, 0.4)
+    ),
+    url(".././img/blog1-2x-600x386.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.fifth-section-card3:hover {
+  background: linear-gradient(
+      to right bottom,
+      rgba(194, 151, 151, 0.4),
+      rgba(39, 28, 192, 0.4)
+    ),
+    url(".././img/blog3-2x-600x386.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+/* FINE HOVER */
 
 /* SIXTH SECTION  */
 .sixth-section {
