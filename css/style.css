@@ -87,6 +87,11 @@ header {
   border: none;
 }
 
+/* HOVER */
+.btn-youtube:hover {
+  background-color: #ff414b;
+}
+
 .btn-buy {
   background-color: #06060f;
   border: 2px solid #98939f;
