@@ -165,7 +165,8 @@ header {
 }
 
 .first-card {
-  background-image: url(.././img/service6-2x.jpg);
+  background: linear-gradient(to bottom, transparent 0%, rgb(24, 22, 22) 100%),
+    url(.././img/service6-2x.jpg);
   position: relative;
   background-size: cover;
   height: 350px;
@@ -174,7 +175,8 @@ header {
 }
 
 .second-card {
-  background-image: url(".././img/box1-2x.jpg");
+  background: linear-gradient(to bottom, transparent 0%, rgb(24, 22, 22) 100%),
+    url(".././img/box1-2x.jpg");
   position: relative;
   background-size: cover;
   height: 350px;
@@ -183,7 +185,8 @@ header {
 }
 
 .third-card {
-  background-image: url(".././img/box3-2x.jpg");
+  background: linear-gradient(to bottom, transparent 0%, rgb(24, 22, 22) 100%),
+    url(".././img/box3-2x.jpg");
   position: relative;
   background-size: cover;
   height: 350px;
